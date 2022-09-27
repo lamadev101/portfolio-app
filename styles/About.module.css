@@ -1,0 +1,40 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.card{
+  right: 0;
+  left: 0;
+  margin: auto;
+  width: 80%;
+  height: auto;
+  background-color: #ffffff67;
+  transition: all 1s ease-in-out;
+}
+.card:hover{
+  background-color: #063d544a;
+  transform: scaleX(1.01);
+}
+.box{
+  display: flex;
+  align-items: center;
+  color: #063d54;
+  font-size: 16px;
+}
+.box:hover{
+  color: white;
+}
+
+.leftItems{
+  list-style:none;
+  flex: 1;
+  text-align: right;
+  font-weight: 500;
+}
+.rightItems{
+  list-style: none;
+  flex: 2;
+  text-align-last: left;
+  font-weight: bold;
+}

@@ -1,0 +1,79 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.mailPhone{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+.badge{
+    display: flex;
+    gap: 5px;
+    border-radius: 5px;
+    background-color: #025f5f;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    flex: 1;
+    padding: 0 20px;
+}
+.contactList{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+}
+.link{
+    font-size: 18px;
+    cursor: pointer;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding:2rem;
+    margin-top: 1rem;
+    background:linear-gradient(90deg, rgba(255,255,255,0.2), rgba(255,255,255,0.03));
+    backdrop-filter: blur(10px);
+}
+.input{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    background-color: transparent;
+    border: 1px solid rgb(2, 73, 73);
+}
+.textarea{
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    border: 1px solid rgb(2, 73, 73);
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+}
+.button{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    letter-spacing: 5px;
+    background: none;
+    border: 1px solid rgb(2, 73, 73);
+    border-radius: 10px;
+    cursor: pointer;
+    color: #025f5f;
+}
+.button:hover{
+    background-color: #025f5f;
+    color: white;
+}

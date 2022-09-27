@@ -1,0 +1,35 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+
+}
+.profile{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: rgba(242, 243, 243, 0.288);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgb(2, 252, 206);
+}
+.intro{
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.605);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    color: #063d54;
+}
+.items{
+    text-align-last: left;
+    font-weight: bold;
+}
+.title{
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

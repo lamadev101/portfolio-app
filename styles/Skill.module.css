@@ -1,0 +1,55 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.badges{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px; 
+}
+.badgeItem{
+    padding: 5px 10px;
+    border: 1px solid #015990;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.badgeActive{
+    padding: 5px 10px;
+    border: 1px solid #015990;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #015990;
+}
+.badgeItem:hover{
+    background-color: #015990;
+}
+
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.skill{
+    flex: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+}
+.image{
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 10px;
+    background-color: #ffffffa0;
+    backdrop-filter: blur(10px);
+}
+
+.experience{
+    flex: 40%;
+}
