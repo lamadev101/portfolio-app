@@ -38,8 +38,8 @@ import js1 from '.././../public/img/work/js1.png'
 
 export const contact = [
   {logo: linkedin, link:'https://www.linkedin.com/in/karma-lama-0a2237235/'},
-  {logo: behance, link: 'https://www.behance.net/swornimkarma'},
   {logo: github, link:'https://github.com/swornim-csit'},
+  {logo: behance, link: 'https://www.behance.net/swornimkarma'},
   {logo: gitlab, link:'https://gitlab.com/nim_kar'},
   {logo: twitter, link:'https://twitter.com/nim_kar'},
   {logo: facebook, link:'https://facebook.com/nim_kar'},
@@ -100,7 +100,7 @@ export const skills = [
     tools: [react, next, redux, routerdom, html, css, js, mu5, bootstrap, tailwind, sass, typescript, node, graphql, git, api],
     desc: [
       "Completed more than 5 projects in web development uising React js, Tailwind CSS and Graphql.",
-      "Competent in Next JS and Firebase.",
+      "Competence in Next JS and Firebase.",
     ]
   },
   {
@@ -109,7 +109,7 @@ export const skills = [
     tools: [figma, xd],
     desc: [
       "Completed more than 5 projects in web development uising React js, Tailwind CSS and Graphql.",
-      "Competent in Next JS and Firebase.",
+      "Competence in Next JS and Firebase.",
     ]
   }, 
   {
@@ -118,7 +118,7 @@ export const skills = [
     tools: [photoshop, illustrator],
     desc: [
       "Completed more than 5 projects in web development uising React js, Tailwind CSS and Graphql.",
-      "Competent in Next JS and Firebase.",
+      "Competence in Next JS and Firebase.",
     ]    
   }
 

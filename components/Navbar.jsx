@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.brand}>
-          <Image src={logo} width="100" height="60" />
+          <Image src={logo} width="100" height="60" alt='logo' />
         </div>
         <ul className={styles.items}>
           <li className={styles.listItem}>

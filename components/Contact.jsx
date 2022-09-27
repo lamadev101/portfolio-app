@@ -12,11 +12,11 @@ const Contact = () => {
       <div className={styles.wrapper}>
         <div className={styles.mailPhone}>
           <span className={styles.badge}>
-            <Image src={phone} width="20" height="20" object-fit="fill" />
+            <Image src={phone} width="20" height="20" object-fit="fill" alt='phone icon'/>
             +977 9880081993
           </span>
           <span className={styles.badge}>
-            <Image src={email} width="20" height="20" object-fit="fill" />            
+            <Image src={email} width="20" height="20" object-fit="fill" alt='email box' />            
             ghisingkarma740@gmail.com
           </span>
         </div>
@@ -24,8 +24,8 @@ const Contact = () => {
           <div className={styles.card}>
             {contact.map((con, index)=>(
               <div className={styles.contactList} key={index}>
-                <Image src={con.logo} width="40" height="40" object-fit="cover" alt='' />
-                <a href={con.link} className={styles.link} target="_blank">{con.link}</a>
+                <Image src={con.logo} width="40" height="40" object-fit="cover" alt='contact icon' />
+                <a href={con.link} className={styles.link} target="_blank" rel="noreferrer">{con.link}</a>
               </div>
             ))}
           </div>

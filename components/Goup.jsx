@@ -19,7 +19,7 @@ const Goup = () => {
 
   return (
     <div className={topLink ? styles.showTop: styles.hideTop}>
-      <Image src={uparrow} width="100%" height="100%" objectFit='cover' onClick={()=>window.scroll(0,0)} />
+      <Image src={uparrow} width="100%" height="100%" objectFit='cover' alt='uparrow' onClick={()=>window.scroll(0,0)} />
     </div>
   );
 }

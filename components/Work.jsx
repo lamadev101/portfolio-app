@@ -18,7 +18,7 @@ const Work = () => {
         <div className={styles.list}>
           {work_category.map((item, index)=>(
             <div className={btnValue === item.key ? styles.activeBtn : styles.btn} key={index} onClick={()=>setBtnValue(item.key)}>
-              <Image className={styles.img} src={item.icon} width="20" height="20" object-fit="cover" />
+              <Image className={styles.img} src={item.icon} width="20" height="20" object-fit="cover" alt='' />
               <span>{item.name}</span>
             </div>
           ))}

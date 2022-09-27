@@ -7,8 +7,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     font-size: 18px;
     font-weight: 600;
     color: #012e4a;
     padding: 20px 0;
+}
+.footerText{
+    border-top: 1px solid #000;
 }
