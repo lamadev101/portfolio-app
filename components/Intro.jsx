@@ -14,7 +14,7 @@ const Intro = () => {
           <h2 className={styles.title}>Karma Lama <br /> Ghising</h2>
           <ul className={styles.items}>
             <li>Web Developer</li>
-            <li>UX/UI Desingner</li>
+            <li>UX/UI Designer</li>
             <li>Graphic Designer</li>
           </ul>
         </div>
